@@ -9,3 +9,7 @@
 2026-10-24T20:32:15.622377Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
 2026-10-24T20:33:32.161584Z  INFO herdr::client: client terminal unavailable; detaching err=Inappropriate ioctl for device (os error 25)
 2026-10-24T20:33:32.161763Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=63414
+2026-10-26T18:13:53.571962Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=8095
+2026-10-26T18:13:53.572171Z  INFO herdr::client: connecting to server path=/Users/thomasbooth/.config/herdr/herdr-client.sock
+2026-10-26T18:13:53.766383Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.5
+2026-10-26T18:17:34.103189Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=8095
